@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+  .breadcrumb_nav{
+    float: right;
+  } 
+  }
+
+  .card.dashboard .card-body{
+    position: relative;
+  }
+  .card.dashboard .card-body i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .submit_btn{
+  	background: aliceblue;
+  	text-align: right;
+  }
+  
+  /* OTP code */
+
+	.digit-group input {
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		color: #a20e37;
+		margin: 0 2px;
+	}
+
+	.digit-group .splitter {
+		padding: 0 5px;
+		color: white;
+		font-size: 24px;
+	}
+
+    #otp_success{
+        display: none;
+    }
+
+/* OTP code */
+
+.card.card_border {
+    border-top: 3px solid darkblue;
+    box-shadow: 0px 0px 10px 0px lightgrey;
+}

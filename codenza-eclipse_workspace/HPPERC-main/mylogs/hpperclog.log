@@ -1,0 +1,940 @@
+2022-01-04 00:01:04.997  INFO 6228 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 00:01:05.884  INFO 6228 --- [RMI TCP Connection(25)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:01:05.978  INFO 6228 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 00:01:06.066  INFO 6228 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 00:02:46.331  INFO 7988 --- [main] com.hpperc.HppercApplicationTests        : Starting HppercApplicationTests using Java 11.0.13 on ASUS-PC with PID 7988 (started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 00:02:46.365  INFO 7988 --- [main] com.hpperc.HppercApplicationTests        : No active profile set, falling back to default profiles: default
+2022-01-04 00:02:55.845  INFO 7988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 00:02:56.537  INFO 7988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 450 ms. Found 2 JPA repository interfaces.
+2022-01-04 00:03:05.570  INFO 7988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 00:03:06.840  INFO 7988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 00:03:14.256  INFO 7988 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:03:19.123  WARN 7988 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 00:03:21.008  INFO 7988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 00:03:21.012  INFO 7988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 00:03:21.027  INFO 7988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 00:03:21.030  INFO 7988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 00:03:21.032  INFO 7988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 00:03:21.761  INFO 7988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24888d8b, org.springframework.security.web.context.SecurityContextPersistenceFilter@65234a9, org.springframework.security.web.header.HeaderWriterFilter@236206f8, org.springframework.security.web.authentication.logout.LogoutFilter@629cf53c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f22ce2a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3599b18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47400608, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@750b200b, org.springframework.security.web.session.SessionManagementFilter@5a88849, org.springframework.security.web.access.ExceptionTranslationFilter@382608d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e664075]
+2022-01-04 00:03:25.916  INFO 7988 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 00:03:28.008  INFO 7988 --- [main] com.hpperc.HppercApplicationTests        : Started HppercApplicationTests in 45.196 seconds (JVM running for 55.128)
+2022-01-04 00:03:28.028  INFO 7988 --- [main] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 00:03:28.260  INFO 7988 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 00:03:29.508  INFO 7988 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:03:29.607  INFO 7988 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 00:03:31.056  INFO 7988 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 00:08:01.356  INFO 7360 --- [main] com.hpperc.HppercApplicationTests        : Starting HppercApplicationTests using Java 11.0.13 on ASUS-PC with PID 7360 (started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 00:08:01.532  INFO 7360 --- [main] com.hpperc.HppercApplicationTests        : No active profile set, falling back to default profiles: default
+2022-01-04 00:08:10.521  INFO 7360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 00:08:11.126  INFO 7360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 552 ms. Found 2 JPA repository interfaces.
+2022-01-04 00:08:19.581  INFO 7360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 00:08:20.920  INFO 7360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 00:08:28.427  INFO 7360 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:08:33.612  WARN 7360 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 00:08:35.010  INFO 7360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 00:08:35.011  INFO 7360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 00:08:35.040  INFO 7360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 00:08:35.041  INFO 7360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 00:08:35.043  INFO 7360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 00:08:35.847  INFO 7360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64cec4d0, org.springframework.security.web.context.SecurityContextPersistenceFilter@27c827ec, org.springframework.security.web.header.HeaderWriterFilter@3c468360, org.springframework.security.web.authentication.logout.LogoutFilter@5857d723, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@45482f82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4351d055, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36ce0bc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e069ca9, org.springframework.security.web.session.SessionManagementFilter@169d5567, org.springframework.security.web.access.ExceptionTranslationFilter@3b95fce9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@642d971f]
+2022-01-04 00:08:39.344  INFO 7360 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 00:08:41.466  INFO 7360 --- [main] com.hpperc.HppercApplicationTests        : Started HppercApplicationTests in 43.746 seconds (JVM running for 53.32)
+2022-01-04 00:08:41.482  INFO 7360 --- [main] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 00:08:41.797  INFO 7360 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 00:08:43.383  INFO 7360 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:08:43.468  INFO 7360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 00:08:43.739  INFO 7360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 00:17:36.248  INFO 5448 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 5448 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 00:17:36.274  INFO 5448 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 00:17:36.800  INFO 5448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-04 00:17:36.801  INFO 5448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-04 00:17:42.901  INFO 5448 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 00:17:43.374  INFO 5448 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 423 ms. Found 2 JPA repository interfaces.
+2022-01-04 00:17:48.497  INFO 5448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 00:17:48.556  INFO 5448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 00:17:48.559  INFO 5448 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 00:17:50.479  INFO 5448 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 00:17:50.545  INFO 5448 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 00:17:50.548  INFO 5448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13743 ms
+2022-01-04 00:17:51.075  WARN 5448 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [6AED75F2DA5E925C36C7D3172EF6F9A1]
+2022-01-04 00:17:51.113 ERROR 5448 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: class java.io.ObjectStreamClass cannot be cast to class java.lang.String (java.io.ObjectStreamClass and java.lang.String are in module java.base of loader 'bootstrap')
+	at java.base/java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1770) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:793) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:971) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1995) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1873) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2180) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1690) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:499) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:457) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1609) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5247) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.hpperc.HppercApplication.main(HppercApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+
+2022-01-04 00:17:53.967  INFO 5448 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 00:17:54.998  INFO 5448 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 00:18:01.847  INFO 5448 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:18:06.580  WARN 5448 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 00:18:07.543  INFO 5448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 00:18:07.545  INFO 5448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 00:18:07.548  INFO 5448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 00:18:07.549  INFO 5448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 00:18:07.550  INFO 5448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 00:18:07.779  INFO 5448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2582ea2e, org.springframework.security.web.context.SecurityContextPersistenceFilter@467ba76c, org.springframework.security.web.header.HeaderWriterFilter@fb6e445, org.springframework.security.web.authentication.logout.LogoutFilter@5a33dbb2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4be30669, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ef20084, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a29ecb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@131733b5, org.springframework.security.web.session.SessionManagementFilter@4921484e, org.springframework.security.web.access.ExceptionTranslationFilter@62befa87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51c9ef11]
+2022-01-04 00:18:09.558  INFO 5448 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 00:18:10.571  INFO 5448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 00:18:10.840  INFO 5448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 00:18:10.935  INFO 5448 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 39.372 seconds (JVM running for 45.539)
+2022-01-04 00:18:10.952  INFO 5448 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 00:18:10.927  INFO 5448 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 00:18:13.014  INFO 5448 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 00:18:13.016  INFO 5448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 00:18:13.026  INFO 5448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-01-04 00:18:14.212  WARN 5448 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [859] milliseconds.
+2022-01-04 00:18:40.571  INFO 5448 --- [http-nio-8080-exec-10] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 00:18:40.577  INFO 5448 --- [http-nio-8080-exec-10] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 00:18:40.580  INFO 5448 --- [http-nio-8080-exec-10] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 00:23:11.788  INFO 5448 --- [http-nio-8080-exec-3] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 00:23:11.789  INFO 5448 --- [http-nio-8080-exec-3] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 00:23:11.790  INFO 5448 --- [http-nio-8080-exec-3] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 00:23:32.499  INFO 5448 --- [http-nio-8080-exec-9] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 00:23:32.501  INFO 5448 --- [http-nio-8080-exec-9] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 00:23:32.504  INFO 5448 --- [http-nio-8080-exec-9] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 00:26:07.935  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 00:26:08.549  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:26:08.628  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 00:26:08.693  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 00:27:29.032  INFO 8032 --- [main] com.hpperc.HppercApplicationTests        : Starting HppercApplicationTests using Java 11.0.13 on ASUS-PC with PID 8032 (started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 00:27:29.048  INFO 8032 --- [main] com.hpperc.HppercApplicationTests        : No active profile set, falling back to default profiles: default
+2022-01-04 00:27:39.140  INFO 8032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 00:27:39.791  INFO 8032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 428 ms. Found 2 JPA repository interfaces.
+2022-01-04 00:27:47.843  INFO 8032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 00:27:49.127  INFO 8032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 00:27:56.367  INFO 8032 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:28:01.218  WARN 8032 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 00:28:02.645  INFO 8032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 00:28:02.646  INFO 8032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 00:28:02.648  INFO 8032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 00:28:02.649  INFO 8032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 00:28:02.651  INFO 8032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 00:28:03.308  INFO 8032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48928b57, org.springframework.security.web.context.SecurityContextPersistenceFilter@e5f05f8, org.springframework.security.web.header.HeaderWriterFilter@b272860, org.springframework.security.web.authentication.logout.LogoutFilter@b666366, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3986b9e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@317fa5dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30a4a111, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29088be1, org.springframework.security.web.session.SessionManagementFilter@5c2ae7d7, org.springframework.security.web.access.ExceptionTranslationFilter@9a16af1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@426bf2f2]
+2022-01-04 00:28:07.383  INFO 8032 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 00:28:09.549  INFO 8032 --- [main] com.hpperc.HppercApplicationTests        : Started HppercApplicationTests in 43.581 seconds (JVM running for 54.048)
+2022-01-04 00:28:09.563  INFO 8032 --- [main] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 00:28:09.632  INFO 8032 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 00:28:10.945  INFO 8032 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 00:28:11.144  INFO 8032 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 00:28:11.576  INFO 8032 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 10:37:11.097  INFO 7872 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 7872 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 10:37:11.283  INFO 7872 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 10:37:11.735  INFO 7872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-04 10:37:11.739  INFO 7872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-04 10:37:17.291  INFO 7872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 10:37:17.833  INFO 7872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 491 ms. Found 2 JPA repository interfaces.
+2022-01-04 10:37:21.958  INFO 7872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 10:37:22.013  INFO 7872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 10:37:22.016  INFO 7872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 10:37:23.942  INFO 7872 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 10:37:24.005  INFO 7872 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 10:37:24.006  INFO 7872 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12264 ms
+2022-01-04 10:37:24.491  WARN 7872 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [3195EE1381874973383AB172D048DB98]
+2022-01-04 10:37:24.528 ERROR 7872 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: class java.io.ObjectStreamClass cannot be cast to class java.lang.String (java.io.ObjectStreamClass and java.lang.String are in module java.base of loader 'bootstrap')
+	at java.base/java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1770) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:793) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:971) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1995) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1873) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2180) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1690) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:499) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:457) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1609) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5247) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.hpperc.HppercApplication.main(HppercApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+
+2022-01-04 10:37:27.125  INFO 7872 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 10:37:28.155  INFO 7872 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 10:37:33.729  INFO 7872 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 10:37:37.665  WARN 7872 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 10:37:38.599  INFO 7872 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 10:37:38.601  INFO 7872 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 10:37:38.602  INFO 7872 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 10:37:38.603  INFO 7872 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 10:37:38.604  INFO 7872 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 10:37:38.867  INFO 7872 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@736bc86f, org.springframework.security.web.context.SecurityContextPersistenceFilter@3899ab6d, org.springframework.security.web.header.HeaderWriterFilter@62d12f07, org.springframework.security.web.authentication.logout.LogoutFilter@5548aef2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2408a449, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a7001de, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5df12735, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43a6f160, org.springframework.security.web.session.SessionManagementFilter@2bf45ea7, org.springframework.security.web.access.ExceptionTranslationFilter@5157c2e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5dd6fb1d]
+2022-01-04 10:37:40.541  INFO 7872 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 10:37:41.838  INFO 7872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 10:37:42.111  INFO 7872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 10:37:42.173  INFO 7872 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 10:37:42.188  INFO 7872 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 34.496 seconds (JVM running for 40.144)
+2022-01-04 10:37:42.202  INFO 7872 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 10:38:30.510  INFO 7872 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 10:38:30.512  INFO 7872 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 10:38:30.523  INFO 7872 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-01-04 10:38:31.558  WARN 7872 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [759] milliseconds.
+2022-01-04 10:38:45.353  INFO 7872 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 10:38:45.361  INFO 7872 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 10:38:45.364  INFO 7872 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 10:41:38.521  INFO 7872 --- [http-nio-8080-exec-6] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 10:41:38.526  INFO 7872 --- [http-nio-8080-exec-6] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 10:41:38.527  INFO 7872 --- [http-nio-8080-exec-6] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 10:42:23.586  INFO 7872 --- [http-nio-8080-exec-7] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 10:42:23.590  INFO 7872 --- [http-nio-8080-exec-7] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 10:42:23.594  INFO 7872 --- [http-nio-8080-exec-7] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 10:44:17.503  INFO 7872 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 10:44:19.253  INFO 7872 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 10:44:19.327  INFO 7872 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 10:44:19.399  INFO 7872 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 10:46:04.166  INFO 7596 --- [main] com.hpperc.HppercApplicationTests        : Starting HppercApplicationTests using Java 11.0.13 on ASUS-PC with PID 7596 (started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 10:46:04.184  INFO 7596 --- [main] com.hpperc.HppercApplicationTests        : No active profile set, falling back to default profiles: default
+2022-01-04 10:46:13.295  INFO 7596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 10:46:14.051  INFO 7596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 626 ms. Found 2 JPA repository interfaces.
+2022-01-04 10:46:22.635  INFO 7596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 10:46:23.918  INFO 7596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 10:46:31.036  INFO 7596 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 10:46:36.157  WARN 7596 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 10:46:37.879  INFO 7596 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 10:46:37.882  INFO 7596 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 10:46:37.884  INFO 7596 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 10:46:37.887  INFO 7596 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 10:46:37.943  INFO 7596 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 10:46:38.784  INFO 7596 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48928b57, org.springframework.security.web.context.SecurityContextPersistenceFilter@e5f05f8, org.springframework.security.web.header.HeaderWriterFilter@b272860, org.springframework.security.web.authentication.logout.LogoutFilter@b666366, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3986b9e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@317fa5dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30a4a111, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29088be1, org.springframework.security.web.session.SessionManagementFilter@5c2ae7d7, org.springframework.security.web.access.ExceptionTranslationFilter@9a16af1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@426bf2f2]
+2022-01-04 10:46:42.735  INFO 7596 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 10:46:44.891  INFO 7596 --- [main] com.hpperc.HppercApplicationTests        : Started HppercApplicationTests in 44.3 seconds (JVM running for 53.681)
+2022-01-04 10:46:44.906  INFO 7596 --- [main] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 10:46:45.014  INFO 7596 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 10:46:47.073  INFO 7596 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 10:46:47.195  INFO 7596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 10:46:47.373  INFO 7596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 10:53:36.762  INFO 8312 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 8312 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 10:53:36.796  INFO 8312 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 10:53:38.091  INFO 8312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-04 10:53:38.096  INFO 8312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-04 10:53:44.107  INFO 8312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 10:53:44.492  INFO 8312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 332 ms. Found 2 JPA repository interfaces.
+2022-01-04 10:53:48.938  INFO 8312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 10:53:48.997  INFO 8312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 10:53:49.000  INFO 8312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 10:53:50.989  INFO 8312 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 10:53:51.051  INFO 8312 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 10:53:51.053  INFO 8312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12949 ms
+2022-01-04 10:53:51.479  WARN 8312 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [065652F00849FD57C15C369B8856032E]
+2022-01-04 10:53:51.517 ERROR 8312 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: class java.io.ObjectStreamClass cannot be cast to class java.lang.String (java.io.ObjectStreamClass and java.lang.String are in module java.base of loader 'bootstrap')
+	at java.base/java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1770) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:793) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:971) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1995) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1873) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2180) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1690) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:499) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:457) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1609) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5247) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.hpperc.HppercApplication.main(HppercApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+
+2022-01-04 10:53:54.174  INFO 8312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 10:53:55.129  INFO 8312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 10:54:00.897  INFO 8312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 10:54:04.913  WARN 8312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 10:54:05.972  INFO 8312 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 10:54:05.974  INFO 8312 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 10:54:05.975  INFO 8312 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 10:54:05.976  INFO 8312 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 10:54:05.978  INFO 8312 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 10:54:06.321  INFO 8312 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16da9eeb, org.springframework.security.web.context.SecurityContextPersistenceFilter@28ac6fb3, org.springframework.security.web.header.HeaderWriterFilter@2af00514, org.springframework.security.web.authentication.logout.LogoutFilter@e7a7094, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@557ab642, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17581bd8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f3f5505, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c512f1c, org.springframework.security.web.session.SessionManagementFilter@4614f4b4, org.springframework.security.web.access.ExceptionTranslationFilter@47346f6b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dcfcc9b]
+2022-01-04 10:54:07.865  INFO 8312 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 10:54:09.314  INFO 8312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 10:54:09.668  INFO 8312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 10:54:09.729  INFO 8312 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 10:54:09.749  INFO 8312 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 37.748 seconds (JVM running for 47.175)
+2022-01-04 10:54:09.763  INFO 8312 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 10:54:51.741  INFO 8312 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 10:54:51.771  INFO 8312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 10:54:51.788  INFO 8312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-01-04 10:54:52.884  WARN 8312 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [798] milliseconds.
+2022-01-04 11:54:09.724  INFO 8312 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 12:54:09.596  INFO 8312 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 13:54:09.469  INFO 8312 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 14:54:09.346  INFO 8312 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 15:42:09.910  WARN 8312 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m11s117ms389µs310ns).
+2022-01-04 15:46:22.962  INFO 8312 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 15:46:23.166  INFO 8312 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 15:46:23.167  INFO 8312 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 15:54:10.934  INFO 8312 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 15:56:42.614  INFO 8312 --- [RMI TCP Connection(277)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 15:56:45.657  INFO 8312 --- [RMI TCP Connection(278)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 15:56:47.230  INFO 8312 --- [RMI TCP Connection(277)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 15:56:47.554  INFO 8312 --- [RMI TCP Connection(277)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 15:56:47.865  INFO 8312 --- [RMI TCP Connection(277)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 15:57:12.483  INFO 8264 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 8264 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 15:57:12.501  INFO 8264 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 15:57:13.001  INFO 8264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-04 15:57:13.004  INFO 8264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-04 15:57:18.699  INFO 8264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 15:57:19.195  INFO 8264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 447 ms. Found 2 JPA repository interfaces.
+2022-01-04 15:57:23.814  INFO 8264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 15:57:23.871  INFO 8264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 15:57:23.874  INFO 8264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 15:57:25.744  INFO 8264 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 15:57:25.808  INFO 8264 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 15:57:25.810  INFO 8264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12802 ms
+2022-01-04 15:57:26.224  WARN 8264 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [2112ACBB12AEFC86C6CF41EE40E982D1]
+2022-01-04 15:57:26.265 ERROR 8264 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: class java.io.ObjectStreamClass cannot be cast to class java.lang.String (java.io.ObjectStreamClass and java.lang.String are in module java.base of loader 'bootstrap')
+	at java.base/java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1770) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:793) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:971) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1995) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1873) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2180) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1690) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:499) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:457) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1609) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5247) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.hpperc.HppercApplication.main(HppercApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+
+2022-01-04 15:57:28.759  INFO 8264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 15:57:29.706  INFO 8264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 15:57:36.331  INFO 8264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 15:57:40.493  WARN 8264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 15:57:41.433  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 15:57:41.436  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 15:57:41.440  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 15:57:41.441  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 15:57:41.442  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 15:57:41.684  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72cfbed3, org.springframework.security.web.context.SecurityContextPersistenceFilter@337c82d0, org.springframework.security.web.header.HeaderWriterFilter@710eb04c, org.springframework.security.web.authentication.logout.LogoutFilter@208d75c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@49916ec1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@752a9987, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@520becf0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d8d73c9, org.springframework.security.web.session.SessionManagementFilter@2327e616, org.springframework.security.web.access.ExceptionTranslationFilter@3c5bb5d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@80fe039]
+2022-01-04 15:57:43.159  INFO 8264 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 15:57:44.548  INFO 8264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 15:57:44.895  INFO 8264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 15:57:44.988  INFO 8264 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 35.641 seconds (JVM running for 42.286)
+2022-01-04 15:57:44.991  INFO 8264 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 15:57:45.031  INFO 8264 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 15:58:01.894  INFO 8264 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 15:58:01.896  INFO 8264 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 15:58:01.906  INFO 8264 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-01-04 15:58:02.746  WARN 8264 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [613] milliseconds.
+2022-01-04 15:58:17.935  INFO 8264 --- [http-nio-8080-exec-5] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 15:58:17.939  INFO 8264 --- [http-nio-8080-exec-5] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 15:58:17.946  INFO 8264 --- [http-nio-8080-exec-5] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 16:03:48.556  INFO 8264 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:03:48.715  INFO 8264 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 16:03:48.855  INFO 8264 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 16:03:50.185  INFO 8264 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 8264 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:03:50.188  INFO 8264 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:03:53.111  INFO 8264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:03:53.226  INFO 8264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:03:54.538  INFO 8264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 16:03:54.543  INFO 8264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 16:03:54.544  INFO 8264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 16:03:55.549  INFO 8264 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 16:03:55.566  INFO 8264 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 16:03:55.566  INFO 8264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5353 ms
+2022-01-04 16:03:55.707  WARN 8264 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [DE35CE5DB077FE9E000A5EE5F2155AA5]
+2022-01-04 16:03:55.723 ERROR 8264 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: class java.io.ObjectStreamClass cannot be cast to class java.lang.String (java.io.ObjectStreamClass and java.lang.String are in module java.base of loader 'bootstrap')
+	at java.base/java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1770) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:793) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:971) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1995) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1873) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2180) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1690) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:499) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:457) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1609) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5247) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.hpperc.HppercApplication.main(HppercApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+
+2022-01-04 16:03:55.993  INFO 8264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-01-04 16:03:56.089  INFO 8264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-01-04 16:03:57.001  INFO 8264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:03:57.936  WARN 8264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:03:58.085  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:03:58.086  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:03:58.088  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:03:58.089  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:03:58.090  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:03:58.155  INFO 8264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b356608, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b8cf1bb, org.springframework.security.web.header.HeaderWriterFilter@35ea2850, org.springframework.security.web.authentication.logout.LogoutFilter@5ade660b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46e2077c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@389abe4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c56a9a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57bedd5, org.springframework.security.web.session.SessionManagementFilter@1f76f00, org.springframework.security.web.access.ExceptionTranslationFilter@27c3130, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@417f1e3f]
+2022-01-04 16:03:58.633  INFO 8264 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:03:59.092  INFO 8264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 16:03:59.195  INFO 8264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 16:03:59.248  INFO 8264 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 9.657 seconds (JVM running for 416.547)
+2022-01-04 16:03:59.253  INFO 8264 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:03:59.263  INFO 8264 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-04 16:03:59.265  INFO 8264 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:05:08.198  INFO 8264 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 16:05:08.207  INFO 8264 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 16:05:08.212  INFO 8264 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-04 16:05:53.514  INFO 8264 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 16:05:54.068  INFO 8264 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:05:54.144  INFO 8264 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-01-04 16:05:54.213  INFO 8264 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-01-04 16:06:13.431  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 3080 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:06:13.450  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:06:13.881  INFO 3080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-04 16:06:13.883  INFO 3080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-04 16:06:19.983  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:06:20.678  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 637 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:06:24.604  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 16:06:24.661  INFO 3080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 16:06:24.663  INFO 3080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 16:06:26.487  INFO 3080 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 16:06:26.548  INFO 3080 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 16:06:26.549  INFO 3080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12662 ms
+2022-01-04 16:06:29.403  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 16:06:30.410  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 16:06:36.148  INFO 3080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:06:39.503  WARN 3080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:06:40.403  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:06:40.406  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:06:40.408  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:06:40.416  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:06:40.418  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:06:40.693  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36ed5773, org.springframework.security.web.context.SecurityContextPersistenceFilter@54473baa, org.springframework.security.web.header.HeaderWriterFilter@2b247971, org.springframework.security.web.authentication.logout.LogoutFilter@256d0749, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7c91ab60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@143b0c1f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@309062ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@166512a6, org.springframework.security.web.session.SessionManagementFilter@161680c7, org.springframework.security.web.access.ExceptionTranslationFilter@7a448b2a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c617ba0]
+2022-01-04 16:06:42.348  INFO 3080 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:06:43.422  INFO 3080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 16:06:43.703  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 16:06:43.798  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 33.004 seconds (JVM running for 38.253)
+2022-01-04 16:06:43.817  INFO 3080 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:06:43.809  INFO 3080 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:09:06.598  INFO 3080 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 16:09:06.601  INFO 3080 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 16:09:06.609  INFO 3080 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-01-04 16:10:51.679  INFO 3080 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:10:51.757  INFO 3080 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 16:10:51.929  INFO 3080 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 16:10:52.834  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 3080 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:10:52.837  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:10:54.563  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:10:54.658  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:10:55.619  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 16:10:55.623  INFO 3080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 16:10:55.624  INFO 3080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 16:10:56.275  INFO 3080 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 16:10:56.293  INFO 3080 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 16:10:56.294  INFO 3080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3389 ms
+2022-01-04 16:10:56.672  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-01-04 16:10:56.696  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-01-04 16:10:57.337  INFO 3080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:10:58.278  WARN 3080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:10:58.479  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:10:58.482  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:10:58.483  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:10:58.485  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:10:58.486  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:10:58.563  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7662d74b, org.springframework.security.web.context.SecurityContextPersistenceFilter@659104a5, org.springframework.security.web.header.HeaderWriterFilter@d40b9fe, org.springframework.security.web.authentication.logout.LogoutFilter@525b687a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@710d422c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e434a58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c49d27, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@365b0cc7, org.springframework.security.web.session.SessionManagementFilter@1b944d79, org.springframework.security.web.access.ExceptionTranslationFilter@4de4cba4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f73cc29]
+2022-01-04 16:10:59.022  INFO 3080 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:10:59.490  INFO 3080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 16:10:59.653  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 16:10:59.702  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 7.388 seconds (JVM running for 294.168)
+2022-01-04 16:10:59.707  INFO 3080 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:10:59.714  INFO 3080 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-04 16:10:59.719  INFO 3080 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:11:10.985  INFO 3080 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 16:11:10.987  INFO 3080 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 16:11:10.992  INFO 3080 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-04 16:11:38.367  INFO 3080 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:11:38.397  INFO 3080 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-01-04 16:11:38.461  INFO 3080 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-01-04 16:11:39.048  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 3080 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:11:39.050  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:11:40.342  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:11:40.429  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:11:41.164  WARN 3080 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.IllegalArgumentException: Error page location [HPPERC/error] must start with a '/'
+2022-01-04 16:11:41.189  INFO 3080 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-04 16:11:41.306 ERROR 3080 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.IllegalArgumentException: Error page location [HPPERC/error] must start with a '/'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.hpperc.HppercApplication.main(HppercApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+Caused by: java.lang.IllegalArgumentException: Error page location [HPPERC/error] must start with a '/'
+	at org.apache.catalina.core.StandardContext.addErrorPage(StandardContext.java:2991) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.configureContext(TomcatServletWebServerFactory.java:378) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.prepareContext(TomcatServletWebServerFactory.java:246) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:198) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.4.jar:2.5.4]
+	... 13 common frames omitted
+
+2022-01-04 16:12:01.072  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 3080 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:12:01.073  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:12:02.299  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:12:02.403  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:12:03.157  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 16:12:03.167  INFO 3080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 16:12:03.170  INFO 3080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 16:12:03.922  INFO 3080 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 16:12:03.940  INFO 3080 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 16:12:03.941  INFO 3080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2853 ms
+2022-01-04 16:12:04.404  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-01-04 16:12:04.427  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-01-04 16:12:05.416  INFO 3080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:12:06.214  WARN 3080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:12:06.386  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:12:06.388  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:12:06.390  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:12:06.394  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:12:06.395  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:12:06.465  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c833def, org.springframework.security.web.context.SecurityContextPersistenceFilter@57b098f, org.springframework.security.web.header.HeaderWriterFilter@3fb7e45f, org.springframework.security.web.authentication.logout.LogoutFilter@5ab0690b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@712c6181, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51a67334, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5133f043, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@734ffef4, org.springframework.security.web.session.SessionManagementFilter@2daf6201, org.springframework.security.web.access.ExceptionTranslationFilter@42d2db77, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d0eed8d]
+2022-01-04 16:12:06.858  INFO 3080 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:12:07.207  INFO 3080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 16:12:07.293  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 16:12:07.315  INFO 3080 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:12:07.323  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 6.404 seconds (JVM running for 361.789)
+2022-01-04 16:12:07.330  INFO 3080 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:12:07.337  INFO 3080 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-04 16:13:01.893  INFO 3080 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 16:13:01.895  INFO 3080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 16:13:01.908  INFO 3080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2022-01-04 16:14:43.016  INFO 3080 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:14:43.058  INFO 3080 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-01-04 16:14:43.096  INFO 3080 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-01-04 16:14:43.773  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 3080 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:14:43.774  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:14:44.895  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:14:44.981  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:14:45.703  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 16:14:45.753  INFO 3080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 16:14:45.756  INFO 3080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 16:14:46.378  INFO 3080 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 16:14:46.390  INFO 3080 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 16:14:46.391  INFO 3080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2605 ms
+2022-01-04 16:14:46.719  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-01-04 16:14:46.756  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-01-04 16:14:47.520  INFO 3080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:14:48.417  WARN 3080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:14:48.557  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:14:48.557  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:14:48.558  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:14:48.559  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:14:48.560  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:14:48.631  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31a43bc7, org.springframework.security.web.context.SecurityContextPersistenceFilter@7dc2153a, org.springframework.security.web.header.HeaderWriterFilter@164ba5c5, org.springframework.security.web.authentication.logout.LogoutFilter@428c56cc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7438b93b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20f2e9e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bdc15b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5de77937, org.springframework.security.web.session.SessionManagementFilter@c691f6d, org.springframework.security.web.access.ExceptionTranslationFilter@b5ac6e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b6f6444]
+2022-01-04 16:14:49.021  INFO 3080 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:14:49.362  INFO 3080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 16:14:49.463  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 16:14:49.489  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 5.915 seconds (JVM running for 523.959)
+2022-01-04 16:14:49.494  INFO 3080 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:14:49.499  INFO 3080 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-04 16:14:49.488  INFO 3080 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:14:59.474  INFO 3080 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 16:14:59.475  INFO 3080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 16:14:59.482  INFO 3080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-01-04 16:15:06.844  WARN 3080 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [592] milliseconds.
+2022-01-04 16:15:06.853  INFO 3080 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 16:15:06.857  INFO 3080 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 16:15:06.858  INFO 3080 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 16:23:45.149  INFO 3080 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:23:45.174  INFO 3080 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-01-04 16:23:45.195  INFO 3080 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-01-04 16:23:45.923  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 3080 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:23:45.925  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:23:47.293  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:23:47.380  INFO 3080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:23:48.287  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 16:23:48.293  INFO 3080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 16:23:48.294  INFO 3080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 16:23:48.909  INFO 3080 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 16:23:48.923  INFO 3080 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 16:23:48.924  INFO 3080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2985 ms
+2022-01-04 16:23:49.016  WARN 3080 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [597D5E9C0216D560E16509F42F11AABA]
+2022-01-04 16:23:49.033 ERROR 3080 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: class java.io.ObjectStreamClass cannot be cast to class java.lang.String (java.io.ObjectStreamClass and java.lang.String are in module java.base of loader 'bootstrap')
+	at java.base/java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1770) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:793) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:971) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1995) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1873) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2180) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1690) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:499) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:457) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1609) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5247) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.hpperc.HppercApplication.main(HppercApplication.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+
+2022-01-04 16:23:49.451  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-01-04 16:23:49.508  INFO 3080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-01-04 16:23:50.238  INFO 3080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:23:51.001  WARN 3080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:23:51.193  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:23:51.194  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:23:51.195  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:23:51.196  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:23:51.197  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:23:51.272  INFO 3080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a862f03, org.springframework.security.web.context.SecurityContextPersistenceFilter@579ba75a, org.springframework.security.web.header.HeaderWriterFilter@18c168f8, org.springframework.security.web.authentication.logout.LogoutFilter@32cb4921, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8391abf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6aa8d0de, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@793de3db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e8f6f44, org.springframework.security.web.session.SessionManagementFilter@758c894, org.springframework.security.web.access.ExceptionTranslationFilter@b16c314, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@545f4696]
+2022-01-04 16:23:51.670  INFO 3080 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:23:52.004  INFO 3080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 16:23:52.088  INFO 3080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 16:23:52.114  INFO 3080 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 6.467 seconds (JVM running for 1066.592)
+2022-01-04 16:23:52.119  INFO 3080 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:23:52.123  INFO 3080 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-04 16:23:52.154  INFO 3080 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:23:59.599  INFO 3080 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 16:23:59.603  INFO 3080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 16:23:59.607  INFO 3080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-04 16:24:05.510  INFO 3080 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 16:24:05.513  INFO 3080 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 16:24:05.515  INFO 3080 --- [http-nio-8080-exec-2] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 16:35:20.169  INFO 3080 --- [RMI TCP Connection(32)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 16:35:20.722  INFO 3080 --- [RMI TCP Connection(32)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:35:20.757  INFO 3080 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-01-04 16:35:20.779  INFO 3080 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-01-04 16:35:38.554  INFO 5836 --- [restartedMain] com.hpperc.HppercApplication             : Starting HppercApplication using Java 11.0.13 on ASUS-PC with PID 5836 (E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main\target\classes started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:35:38.570  INFO 5836 --- [restartedMain] com.hpperc.HppercApplication             : No active profile set, falling back to default profiles: default
+2022-01-04 16:35:39.128  INFO 5836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-04 16:35:39.129  INFO 5836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-04 16:35:44.084  INFO 5836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:35:44.608  INFO 5836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 474 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:35:48.653  INFO 5836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-04 16:35:48.715  INFO 5836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-04 16:35:48.718  INFO 5836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-04 16:35:50.480  INFO 5836 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-04 16:35:50.541  INFO 5836 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring embedded WebApplicationContext
+2022-01-04 16:35:50.542  INFO 5836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11409 ms
+2022-01-04 16:35:50.974  WARN 5836 --- [restartedMain] o.a.c.c.C.[.[localhost].[/HPPERC]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [C06A2CF0411C95FDF96B13CEC3D32C1F]
+2022-01-04 16:35:53.578  INFO 5836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 16:35:54.562  INFO 5836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 16:35:59.863  INFO 5836 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:36:03.175  WARN 5836 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:36:04.073  INFO 5836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:36:04.076  INFO 5836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:36:04.078  INFO 5836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:36:04.079  INFO 5836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:36:04.081  INFO 5836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:36:04.313  INFO 5836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72999877, org.springframework.security.web.context.SecurityContextPersistenceFilter@38ef02b6, org.springframework.security.web.header.HeaderWriterFilter@1fa12f52, org.springframework.security.web.authentication.logout.LogoutFilter@2d083bcf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@75271cec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49c0d283, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a448b2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cc01702, org.springframework.security.web.session.SessionManagementFilter@41570919, org.springframework.security.web.access.ExceptionTranslationFilter@160fe0bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e4e408e]
+2022-01-04 16:36:05.817  INFO 5836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:36:07.045  INFO 5836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-04 16:36:07.318  INFO 5836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/HPPERC'
+2022-01-04 16:36:07.424  INFO 5836 --- [restartedMain] com.hpperc.HppercApplication             : Started HppercApplication in 31.532 seconds (JVM running for 37.303)
+2022-01-04 16:36:07.440  INFO 5836 --- [restartedMain] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:36:07.485  INFO 5836 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:40:31.017  INFO 5836 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/HPPERC]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 16:40:31.018  INFO 5836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-04 16:40:31.024  INFO 5836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-01-04 16:40:42.076  WARN 5836 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [596] milliseconds.
+2022-01-04 16:40:42.085  INFO 5836 --- [http-nio-8080-exec-3] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 16:40:42.089  INFO 5836 --- [http-nio-8080-exec-3] com.hpperc.security.SecurityConfig       : Role:::ROLE_MASTER_ADMIN
+2022-01-04 16:40:42.090  INFO 5836 --- [http-nio-8080-exec-3] com.hpperc.security.SecurityConfig       : request.getContextPath():::/HPPERC
+2022-01-04 16:42:17.181  INFO 5836 --- [http-nio-8080-exec-8] c.h.controller.MasterAdminController     : encodedPassword :: $2a$10$ECLCaFxkdsXteE4FH1Zmg.ITWTVnJ/zhYSs3guNjb7TObqdEkWR86
+2022-01-04 16:42:24.367  INFO 5836 --- [http-nio-8080-exec-8] c.h.controller.MasterAdminController     : First Name :: Yogesh10
+2022-01-04 16:42:24.368  INFO 5836 --- [http-nio-8080-exec-8] c.h.controller.MasterAdminController     : role_______ :: null
+2022-01-04 16:43:15.492  INFO 5836 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-04 16:43:16.105  INFO 5836 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:43:16.183  INFO 5836 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 16:43:16.247  INFO 5836 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-04 16:44:36.412  INFO 3388 --- [main] com.hpperc.HppercApplicationTests        : Starting HppercApplicationTests using Java 11.0.13 on ASUS-PC with PID 3388 (started by ASUS in E:\Yogesh Pagar\Codenza HPPRC\HPPERC\HPPERC-main)
+2022-01-04 16:44:36.468  INFO 3388 --- [main] com.hpperc.HppercApplicationTests        : No active profile set, falling back to default profiles: default
+2022-01-04 16:44:45.819  INFO 3388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-04 16:44:46.451  INFO 3388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 424 ms. Found 2 JPA repository interfaces.
+2022-01-04 16:44:55.741  INFO 3388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-04 16:44:57.365  INFO 3388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 16:45:05.302  INFO 3388 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:45:10.063  WARN 3388 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-04 16:45:11.677  INFO 3388 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/resources/**'] with []
+2022-01-04 16:45:11.680  INFO 3388 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2022-01-04 16:45:11.715  INFO 3388 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/lib/**'] with []
+2022-01-04 16:45:11.718  INFO 3388 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/scss/**'] with []
+2022-01-04 16:45:11.720  INFO 3388 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2022-01-04 16:45:12.418  INFO 3388 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6693818c, org.springframework.security.web.context.SecurityContextPersistenceFilter@47400608, org.springframework.security.web.header.HeaderWriterFilter@143900a6, org.springframework.security.web.authentication.logout.LogoutFilter@5e8e02a3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29088be1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6efc9d3f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@294a3f2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4281a26f, org.springframework.security.web.session.SessionManagementFilter@7f6a6d46, org.springframework.security.web.access.ExceptionTranslationFilter@4351d055, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45482f82]
+2022-01-04 16:45:16.212  INFO 3388 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-04 16:45:18.351  INFO 3388 --- [main] com.hpperc.HppercApplicationTests        : Started HppercApplicationTests in 45.632 seconds (JVM running for 55.748)
+2022-01-04 16:45:18.384  INFO 3388 --- [main] com.hpperc.runner.UserInsertRunner       : Users have been inserted
+2022-01-04 16:45:18.381  INFO 3388 --- [scheduling-1] com.hpperc.schedule.LogsSchedular        : Schedular running..
+2022-01-04 16:45:20.338  INFO 3388 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-04 16:45:20.429  INFO 3388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-04 16:45:20.518  INFO 3388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
